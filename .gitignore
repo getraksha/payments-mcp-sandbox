@@ -1,0 +1,73 @@
+# Compiled binaries
+bin/
+dist/
+build/
+*/bin/
+*/dist/
+*/build/
+/db-ops/db-ops
+/email-ops/email-ops
+/file-ops/file-ops
+/pdf-ops/pdf-ops
+*.db
+temp_*.pdf
+*.test
+*.out
+
+# Test and coverage output
+coverage.out
+coverage.html
+coverage/
+*.cover
+*.prof
+*.pprof
+
+# Environment files
+# Keep .env.example files committed as documentation.
+.env
+.env.local
+.env.*.local
+.env.staging
+.env.production
+.env.prod
+.envrc
+
+# Logs and runtime state
+logs/
+*.log
+*.jsonl
+
+# Temporary and scratch files
+tmp/
+temp/
+.tmp/
+.cache/
+.gocache/
+*/.gocache/
+
+# IDE / editor
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# ── Common ignores (added by gitignore audit) ─────────────────
+.gomodcache/
+node_modules/
+**/node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.db-wal
+*.db-shm
+
