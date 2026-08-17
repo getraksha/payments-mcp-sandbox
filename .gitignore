@@ -1,5 +1,6 @@
 # Compiled binaries
 bin/
+.bin/
 dist/
 build/
 */bin/
@@ -70,4 +71,3 @@ __pycache__/
 *.pyc
 *.db-wal
 *.db-shm
-
